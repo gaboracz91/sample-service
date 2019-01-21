@@ -1,0 +1,70 @@
+[
+  {
+    "model": "service.MeasurementType",
+    "pk": "1",
+    "fields": {
+      "name": "Call"
+    }
+  },
+  {
+    "model": "service.MeasurementType",
+    "pk": "2",
+    "fields": {
+      "name": "Written"
+    }
+  },
+  {
+    "model": "service.MeasurementType",
+    "pk": "3",
+    "fields": {
+      "name": "Social Media"
+    }
+  },
+  {
+    "model": "service.Task",
+    "pk": "1",
+    "fields": {
+      "name": "SC First Line",
+      "measurement_type": 1
+    }
+  },
+  {
+    "model": "service.Task",
+    "pk": "2",
+    "fields": {
+      "name": "DC First Line",
+      "measurement_type": 1
+    }
+  },
+  {
+    "model": "service.Task",
+    "pk": "3",
+    "fields": {
+      "name": "SC First Line",
+      "measurement_type": 2
+    }
+  },
+  {
+    "model": "service.Task",
+    "pk": "4",
+    "fields": {
+      "name": "DC First Line",
+      "measurement_type": 2
+    }
+  },{
+    "model": "service.Task",
+    "pk": "5",
+    "fields": {
+      "name": "Dispute",
+      "measurement_type": 2
+    }
+  },
+  {
+    "model": "service.Task",
+    "pk": "6",
+    "fields": {
+      "name": "Social Media",
+      "measurement_type": 3
+    }
+  }
+]
