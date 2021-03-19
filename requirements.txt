@@ -9,7 +9,7 @@ Django==2.1.5
 django-cors-headers==2.4.0
 django-filter==2.1.0
 django-prometheus==1.0.15
-djangorestframework==3.9.1
+djangorestframework==3.11.2
 docutils==0.14
 dumb-init==1.2.2
 gevent==1.4.0
